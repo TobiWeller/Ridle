@@ -2,7 +2,7 @@
 Tensorflow-based implementation of [Ridle](#link.pdf) (<ins>R</ins>elation - <ins>I</ins>nstance <ins>D</ins>istribution <ins>Le</ins>arning) for supervised node classification on (directed) relational graphs, as published in [CIKM 2021](https://www.cikm2021.org/).
 
 
-![PCA projections of learned entity representations](http://url/to/img.png)
+![PCA projections of learned entity representations](https://github.com/TobiWeller/Ridle/blob/main/graph.png?raw=true| width=100)
 PCA projections for the learned entity representations. Popular classes from cross-domain KGs were selected forvisualization. Ridle (top) allows for a better separation of the instances into their respective classes in comparison to thestate-of-the-art RDF2Vec approach (bottom).
 
 
@@ -37,7 +37,7 @@ sh run.sh
 ## Results
 The following image shows the results reported in the [Paper](#link.pdf). Considering the cross-domain KGs (cf. Table 2a), Ridle signifi-cantly outperforms the state-of-the-art methods with respect to the metric F1-macro. Considering the  performance  of  the  approaches  in  the category-specific KGs (cf. Table 2b), we can conclude that Ridle achieves competitive performance in comparison to the best approaches.
 The experimental results showed that, on average, Ridle outperforms current state-of-the-art models in several KGs, which sets a new baseline in the tasks of predicting instance type assertions.
-![Results of Ridle for predicting instance types](http://url/to/img.png)
+![Results of Ridle for predicting instance types](https://github.com/TobiWeller/Ridle/blob/main/results.png?raw=true)
 
 
 
