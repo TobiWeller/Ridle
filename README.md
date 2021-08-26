@@ -2,7 +2,7 @@
 Tensorflow-based implementation of [Ridle](#link.pdf) (<ins>R</ins>elation - <ins>I</ins>nstance <ins>D</ins>istribution <ins>Le</ins>arning) for supervised node classification on (directed) relational graphs, as published in [CIKM 2021](https://www.cikm2021.org/).
 
 
-![PCA projections of learned entity representations](https://github.com/TobiWeller/Ridle/blob/main/graph.png?raw=true| width=100)
+![PCA projections of learned entity representations](https://github.com/TobiWeller/Ridle/blob/main/graph.png?raw=true)
 PCA projections for the learned entity representations. Popular classes from cross-domain KGs were selected forvisualization. Ridle (top) allows for a better separation of the instances into their respective classes in comparison to thestate-of-the-art RDF2Vec approach (bottom).
 
 
