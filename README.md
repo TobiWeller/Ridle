@@ -15,7 +15,7 @@ To use this package, you must install the following dependencies first:
 
 
 ## Training
-To use Ridle, you must provide your graph data as a pkl file in the format S-P-O) in the folder dataset. Examples are given in the folder dataset. You can learn the representations on DBLP using Ridle, you can use the following command, specifying the dataset with the argument --dataset. This file loads the umls knowledge graph graph and learns a representation using Ridle, exploiting a target distribution over the usage of relations. The representations are saved in a csv in the same folder as the dataset.
+To use Ridle, you must provide your graph data as a pkl file in the format S-P-O) in the folder dataset. Examples are given in the folder dataset. You can learn the representations on umls using Ridle, you can use the following command, specifying the dataset with the argument --dataset. This file loads the umls knowledge graph graph and learns a representation using Ridle, exploiting a target distribution over the usage of relations. The representations are saved in a csv in the same folder as the dataset.
 ```
 python learn_representation.py --dataset umls
 ```
@@ -27,7 +27,7 @@ python evaluate_instance_type.py --dataset umls
 ```
 
 
-The file *run.sh* is given to combine both commands in order to immediately evualuate the representations. It applies the method on the knowledge graph umls and stores the embeddings in a csv. Afterwards, it applies the learned representations for instance type prediction. The results are saved in a csv. Due to the size of DBpedia and Wikidata and the limited space for uploading the datasets, we uploaded subsets of the datasets DBp_2016-04, DBp_3.8 and WD_2017-03-13 for which experiments were conducted.
+The file *run.sh* is given to combine both commands in order to immediately evualuate the representations. It applies the method on the knowledge graph umls and stores the embeddings in a csv. Afterwards, it applies the learned representations for instance type prediction. The results are saved in a csv. Due to the size of DBpedia and Wikidata and the limited space for uploading the datasets, we uploaded subsets including Books_Wikidata, umls and Songs_DBpedia for which experiments were conducted.
 
 ```
 sh run.sh
