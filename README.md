@@ -42,7 +42,7 @@ The experimental results showed that, on average, Ridle outperforms current stat
 
 
 ## Citation
-If you use this code for evidential learning as part of your project or paper, please cite the following work:  
+If you use this code for predicting instance type assertions in Knowledge Graphs as part of your project or paper, please cite the following work:  
 
     @article{weller2021ridle,
       title={Predicting Instance Type Assertions in Knowledge Graphs Using Stochastic Neural Networks},
