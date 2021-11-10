@@ -43,14 +43,24 @@ The experimental results showed that, on average, Ridle outperforms current stat
 
 ## Citation
 If you use this code for predicting instance type assertions in Knowledge Graphs as part of your project or paper, please cite the following work:  
-
-    @article{weller2021ridle,
-      title={Predicting Instance Type Assertions in Knowledge Graphs Using Stochastic Neural Networks},
-      author={Weller, Tobias and Acosta, Maribel},
-      journal={Proceedings of the 30th ACM International Conference on Information and Knowledge Management (CIKM '21), November 1--5, 2021, Virtual Event, QLD, Australia},
-      year={2021}
+```
+@inproceedings{weller2021ridle,
+    author = {Weller, Tobias and Acosta, Maribel},
+    title = {Predicting Instance Type Assertions in Knowledge Graphs Using Stochastic Neural Networks},
+    year = {2021},
+    isbn = {9781450384469},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3459637.3482377},
+    doi = {10.1145/3459637.3482377},
+    booktitle = {Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management},
+    pages = {2111–2118},
+    numpages = {8},
+    keywords = {knowledge graphs, stochastic networks, entity classification, entity type prediction},
+    location = {Virtual Event, Queensland, Australia},
+    series = {CIKM '21}
     }
-
+```
 
 
 ## Licence
