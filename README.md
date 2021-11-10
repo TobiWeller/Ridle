@@ -59,7 +59,7 @@ If you use this code for predicting instance type assertions in Knowledge Graphs
     keywords = {knowledge graphs, stochastic networks, entity classification, entity type prediction},
     location = {Virtual Event, Queensland, Australia},
     series = {CIKM '21}
-    }
+}
 ```
 
 
